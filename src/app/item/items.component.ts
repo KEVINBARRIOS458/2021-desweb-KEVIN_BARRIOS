@@ -12,7 +12,7 @@ export class ItemsComponent implements OnInit {
 
   constructor(private itemService: ItemService) {}
 
-  //ngOnInit(): void {
+  ngOnInit(): void {
     this.itemService.getItems().subscribe(
       response => {
         this.items=response.photos;

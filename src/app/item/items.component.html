@@ -5,7 +5,7 @@
   <ListView [items]="items">
     <ng-template let-item="item">
       <DockLayout>
-
+        <Image [src]="item.img_src.replace('http','https')">
 
         </Image>
       </DockLayout>
