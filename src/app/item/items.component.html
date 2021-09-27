@@ -1,10 +1,11 @@
+
 <ActionBar ><label text="APLICACION DESWEB">
 </label></ActionBar>
 
 <GridLayout>
   <ListView [items]="items">
     <ng-template let-item="item">
-      <DockLayout>
+      <DockLayout backgroundColor ="red" #ff5733>
         <Image [src]="item.img_src.replace('http','https')">
 
 
