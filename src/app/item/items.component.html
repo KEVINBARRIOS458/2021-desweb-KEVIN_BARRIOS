@@ -6,6 +6,10 @@
   <ListView [items]="items">
     <ng-template let-item="item">
       <DockLayout backgroundColor ="red" #ff5733>
+        <Label [text]="'Camara: '+item.camera.name"></Label>
+        <Label [text]="'Camara: '+item.camera.name"></Label>
+
+
         <Image [src]="item.img_src.replace('http','https')">
 
 
