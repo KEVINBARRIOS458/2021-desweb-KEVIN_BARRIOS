@@ -7,7 +7,8 @@
     <ng-template let-item="item">
       <DockLayout backgroundColor ="red" #ff5733>
         <Label [text]="'Camara: '+item.camera.name"></Label>
-        <Label [text]="'Camara: '+item.camera.name"></Label>
+        <Label [text]="'id: '+item.camera.id"></Label>
+        <Label [text]="'rove: '+item.camera.rover_id"></Label>
 
 
         <Image [src]="item.img_src.replace('http','https')">
